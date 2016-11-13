@@ -1,3 +1,5 @@
+# SwiftPlusPlus
+
 SwiftPlusPlus simply brings the pre and post increment and decrement operators back to Swift 3, so that you can write this again:
 
 ```swift
@@ -22,35 +24,36 @@ That's just a personal choice - I think that usage may introduce subtle bugs, so
 
 However, I love the operator when used standalone. Maybe for historical reasons, as it's the first thing I learned and loved in C, long long ago.
 
-# Installation
+## Installation
 
-## Manual
+### Manual
 Just copy the `SwiftPlusPlus.swift` file into your Xcode project
 
-## Cocoapods
+### Cocoapods
 ```
 pod 'SwiftPlusPlus'
 ```
 
-## Carthage
+### Carthage
 N/A yet
 
-## Swift Package Manager
+### Swift Package Manager
 N/A yet
 
-# Usage
+## Usage
 
-## Manual installation
+### Manual installation
 In case of manual installation, the operators can be used anywhere in the code without any import.
 
-## Cocoapods
+### Cocoapods
 Using cocoapods instead you need to add `import spp` in each file where the operators are used.
 
-## Carthage
+### Carthage
 N/A yet
 
-## Swift Package Manager
+### Swift Package Manager
 N/A yet
 
-# MIT License
+## License
+MIT
 Read the `LICENSE` file
